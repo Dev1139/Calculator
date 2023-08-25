@@ -1,0 +1,37 @@
+.calculator{
+    width: 350px;
+    height: 360px;
+    display:grid;
+    border:1px;
+    border-radius: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px auto auto auto auto;
+}
+#textArea{
+    grid-column: 1/span 4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-align: end;
+    color: white;
+    background-color: #1D1D1D;
+}
+.item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: color-mix(in srgb, #D1D0D0 25%, #1D1D1D 75%);
+}
+.item2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    grid-column: 1/span 4;
+    color: white;
+    background-color: rgb(41, 143, 190);
+}
+.item1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+}
